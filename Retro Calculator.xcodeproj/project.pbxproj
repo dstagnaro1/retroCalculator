@@ -14,6 +14,7 @@
 		8032AB971CF39CBF0016DAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8032AB961CF39CBF0016DAB3 /* Assets.xcassets */; };
 		8032AB9A1CF39CBF0016DAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8032AB981CF39CBF0016DAB3 /* LaunchScreen.storyboard */; };
 		80597C781CF52FF200D4734F /* minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80597C771CF52FF200D4734F /* minecraft.ttf */; };
+		806445501CF548C60090F1CB /* Calculator.ico in Resources */ = {isa = PBXBuildFile; fileRef = 8064454F1CF548C60090F1CB /* Calculator.ico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8032AB991CF39CBF0016DAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8032AB9B1CF39CBF0016DAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80597C771CF52FF200D4734F /* minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = minecraft.ttf; sourceTree = "<group>"; };
+		8064454F1CF548C60090F1CB /* Calculator.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Calculator.ico; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				8032AB911CF39CBF0016DAB3 /* ViewController.swift */,
 				8032AB931CF39CBF0016DAB3 /* Main.storyboard */,
 				8032AB961CF39CBF0016DAB3 /* Assets.xcassets */,
+				8064454F1CF548C60090F1CB /* Calculator.ico */,
 				8032AB981CF39CBF0016DAB3 /* LaunchScreen.storyboard */,
 				8032AB9B1CF39CBF0016DAB3 /* Info.plist */,
 			);
@@ -132,6 +135,7 @@
 				8032AB9A1CF39CBF0016DAB3 /* LaunchScreen.storyboard in Resources */,
 				8032AB971CF39CBF0016DAB3 /* Assets.xcassets in Resources */,
 				80597C781CF52FF200D4734F /* minecraft.ttf in Resources */,
+				806445501CF548C60090F1CB /* Calculator.ico in Resources */,
 				8032AB951CF39CBF0016DAB3 /* Main.storyboard in Resources */,
 				801FA0BA1CF3A2D300601327 /* btn.wav in Resources */,
 			);
@@ -262,6 +266,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielStagnaro.Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -273,6 +278,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielStagnaro.Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

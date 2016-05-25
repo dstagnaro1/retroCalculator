@@ -173,7 +173,7 @@
                                                     <constraint firstAttribute="width" constant="61" id="iqY-a6-C9I"/>
                                                     <constraint firstAttribute="height" constant="62" id="pdR-mt-XhH"/>
                                                 </constraints>
-                                                <state key="normal" image="0"/>
+                                                <state key="normal" image="add"/>
                                                 <connections>
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6kC-CF-VJa"/>
                                                 </connections>
@@ -184,7 +184,7 @@
                                                     <constraint firstAttribute="height" constant="62" id="6fe-6Z-vGa"/>
                                                     <constraint firstAttribute="width" constant="61" id="bTY-8C-kAU"/>
                                                 </constraints>
-                                                <state key="normal" image="add"/>
+                                                <state key="normal" image="0"/>
                                                 <connections>
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nQg-2M-WAz"/>
                                                 </connections>

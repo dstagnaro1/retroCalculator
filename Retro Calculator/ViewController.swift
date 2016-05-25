@@ -29,6 +29,10 @@ class ViewController: UIViewController {
 
     @IBAction func numberPressed(button: UIButton!){
         buttonSound.play()
+        let tagValue = button.tag
+        
+        outputLabel.text = "\(tagValue)"
+        
     }
     
 }
