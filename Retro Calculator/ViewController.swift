@@ -12,7 +12,12 @@ import AVFoundation
 class ViewController: UIViewController {
 
     @IBOutlet weak var outputLabel: UILabel!
+    
     var buttonSound: AVAudioPlayer!
+    
+    var runningSum = ""
+    var leftValStr = ""
+    var rightValStr = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,15 +30,32 @@ class ViewController: UIViewController {
         } catch let err as NSError{
             print(err.debugDescription)
         }
+        
+        outputLabel.text = ""
     }
 
     @IBAction func numberPressed(button: UIButton!){
-        buttonSound.play()
-        let tagValue = button.tag
+        playSound()
+        let tagValue = String(button.tag)
         
-        outputLabel.text = "\(tagValue)"
+        let outputLabelText = outputLabel.text! + tagValue
         
+        outputLabel.text = "\(outputLabelText)"
     }
     
+    @IBAction func onAddPressed(sender: UIButton) {
+    }
+    @IBAction func onSubtractPressed(sender: UIButton) {
+    }
+    @IBAction func onMultiplyPressed(sender: UIButton) {
+    }
+    @IBAction func onDividePressed(sender: UIButton) {
+    }
+    @IBAction func onEqualPressed(sender: UIButton) {
+    }
+ 
+    func playSound(){
+        buttonSound.play()
+    }
+        
 }
-
